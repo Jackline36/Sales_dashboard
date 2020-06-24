@@ -3,28 +3,28 @@ sidebar:
       - text: How well a client is paying
         module:
           metric_panel:
-           metric: !expr DATA$test_analysis_avg_trp
+           metric: !expr list.load("list.rds")$test_analysis_avg_trp
       - text: Total amount Paid
         module:
           metric_panel:
-           metric: !expr DATA$test_analysis_nb_total_amount
+           metric: !expr list.load("list.rds")$test_analysis_nb_total_amount
       - text: Total loan uptake
         module:
           metric_panel:
-           metric: !expr DATA$test_analysis_avg_loan_principal
+           metric: !expr list.load("list.rds")$test_analysis_avg_loan_principal
       - text: Total Down payment
         module:
           metric_panel:
-           metric: !expr DATA$test_analysis_avg_down_payment
+           metric: !expr list.load("list.rds")$test_analysis_avg_down_payment
       - text: Keeping tracks on Products
         module:
           metric_panel:
-            metric: !expr DATA$test_analysis_nb_product
+            metric: !expr list.load("list.rds")$test_analysis_nb_product
       - text: Cheking which items are complementary
         module:
           metric_panel:
-            metric: !expr DATA$test_analysis_nb_product
+            metric: !expr list.load("list.rds")$test_analysis_nb_product
       - text: Installments and progess - monitor that! Tounche!!
         module:
           metric_panel:
-            metric: !expr DATA$test_analysis_nb_installments
+            metric: !expr list.load("list.rds")$test_analysis_nb_installments

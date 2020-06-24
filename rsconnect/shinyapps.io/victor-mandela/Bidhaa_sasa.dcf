@@ -5,8 +5,8 @@ account: victor-mandela
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2496829
-bundleId: 3310272
+bundleId: 3310534
 url: https://victor-mandela.shinyapps.io/Bidhaa_sasa/
-when: 1592989761.01151
+when: 1592995192.43814
 asMultiple: FALSE
 asStatic: FALSE
